@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_040ed2202aca131de160ff422d272631 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_040ed2202aca131de160ff422d272631" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_040ed2202aca131de160ff422d272631 = L.map(
+                "map_040ed2202aca131de160ff422d272631",
+                {
+                    center: [44.7, -110.9],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1a5d2a4a4cf10db398b674f8c0f18fd9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_040ed2202aca131de160ff422d272631);
+        
+    
+            var marker_b8334fc96ab20bb5451c3ee8e871231e = L.marker(
+                [45.777235, -111.160286],
+                {}
+            ).addTo(map_040ed2202aca131de160ff422d272631);
+        
+    
+            var beautify_icon_6fb1c356581992b39eeec6fc52ca80d4 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#2A81CB", "borderColor": "#000", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 1, "textColor": "#fff"}
+            )
+            marker_b8334fc96ab20bb5451c3ee8e871231e.setIcon(beautify_icon_6fb1c356581992b39eeec6fc52ca80d4);
+        
+    
+            marker_b8334fc96ab20bb5451c3ee8e871231e.bindTooltip(
+                `<div>
+                     Bozeman Airport (BZN)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b71c017268e338fd94f34b948019841a = L.marker(
+                [45.777235, -111.160286],
+                {}
+            ).addTo(map_040ed2202aca131de160ff422d272631);
+        
+    
+            var div_icon_ac330f68976bd5f4120f1bb1da28af12 = L.divIcon({"className": "empty", "html": "\n        \u003cdiv style=\"font-size: 12px; color: black;\"\u003e\n            \u003ca href=\"https://maps.google.com/?q=Bozeman+Airport\" target=\"_blank\" style=\"text-decoration: none; color: black;\"\u003e\n                1. Bozeman Airport (BZN)\n            \u003c/a\u003e\n        \u003c/div\u003e\n    ", "iconAnchor": [0, 0], "iconSize": [200, 36]});
+            marker_b71c017268e338fd94f34b948019841a.setIcon(div_icon_ac330f68976bd5f4120f1bb1da28af12);
+        
+    
+            var marker_489685e79242e984d249cc13fa8e3f24 = L.marker(
+                [45.0311, -110.7059],
+                {}
+            ).addTo(map_040ed2202aca131de160ff422d272631);
+        
+    
+            var beautify_icon_96ed8b4601e9f66813aa5a095f26dee0 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#2A81CB", "borderColor": "#000", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 2, "textColor": "#fff"}
+            )
+            marker_489685e79242e984d249cc13fa8e3f24.setIcon(beautify_icon_96ed8b4601e9f66813aa5a095f26dee0);
+        
+    
+            marker_489685e79242e984d249cc13fa8e3f24.bindTooltip(
+                `<div>
+                     Gardiner
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5de552d9374181a2f31508b78bfaf74 = L.marker(
+                [45.0311, -110.7059],
+                {}
+            ).addTo(map_040ed2202aca131de160ff422d272631);
+        
+    
+            var div_icon_48b7b77e6afff20903964481178b833a = L.divIcon({"className": "empty", "html": "\n        \u003cdiv style=\"font-size: 12px; color: black;\"\u003e\n            \u003ca href=\"https://maps.google.com/?q=Gardiner\" target=\"_blank\" style=\"text-decoration: none; color: black;\"\u003e\n                2. Gardiner\n            \u003c/a\u003e\n        \u003c/div\u003e\n    ", "iconAnchor": [0, 0], "iconSize": [200, 36]});
+            marker_b5de552d9374181a2f31508b78bfaf74.setIcon(div_icon_48b7b77e6afff20903964481178b833a);
+        
+    
+            var marker_c8c93e4979d0bf0a4617a7e6677bac57 = L.marker(
+                [44.9769, -110.7013],
+                {}
+            ).addTo(map_040ed2202aca131de160ff422d272631);
+        
+    
+            var beautify_icon_0a65df3899848f1cdb1010c8d68fed1f = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#2A81CB", "borderColor": "#000", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 3, "textColor": "#fff"}
+            )
+            marker_c8c93e4979d0bf0a4617a7e6677bac57.setIcon(beautify_icon_0a65df3899848f1cdb1010c8d68fed1f);
+        
+    
+            marker_c8c93e4979d0bf0a4617a7e6677bac57.bindTooltip(
+                `<div>
+                     Mammoth Hot Springs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2b692c882e1a563358aa7bf66c1b5f2 = L.marker(
+                [44.9769, -110.7013],
+                {}
+            ).addTo(map_040ed2202aca131de160ff422d272631);
+        
+    
+            var div_icon_fcaa063f2e7dbec62b67664d0a117d29 = L.divIcon({"className": "empty", "html": "\n        \u003cdiv style=\"font-size: 12px; color: black;\"\u003e\n            \u003ca href=\"https://maps.google.com/?q=Mammoth+Hot+Springs\" target=\"_blank\" style=\"text-decoration: none; color: black;\"\u003e\n                3. Mammoth Hot Springs\n            \u003c/a\u003e\n        \u003c/div\u003e\n    ", "iconAnchor": [0, 0], "iconSize": [200, 36]});
+            marker_e2b692c882e1a563358aa7bf66c1b5f2.setIcon(div_icon_fcaa063f2e7dbec62b67664d0a117d29);
+        
+    
+            var marker_6597f486020904e3fac7456d7d847566 = L.marker(
+                [44.7313, -110.7042],
+                {}
+            ).addTo(map_040ed2202aca131de160ff422d272631);
+        
+    
+            var beautify_icon_b8a39e17c6b85d42e3533eff654b6bfc = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#2A81CB", "borderColor": "#000", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 4, "textColor": "#fff"}
+            )
+            marker_6597f486020904e3fac7456d7d847566.setIcon(beautify_icon_b8a39e17c6b85d42e3533eff654b6bfc);
+        
+    
+            marker_6597f486020904e3fac7456d7d847566.bindTooltip(
+                `<div>
+                     Norris Geyser Basin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8509bc6c095ec4332264fc1feaaf355b = L.marker(
+                [44.7313, -110.7042],
+                {}
+            ).addTo(map_040ed2202aca131de160ff422d272631);
+        
+    
+            var div_icon_c937d605ff361d7491a5ab60ba9671d3 = L.divIcon({"className": "empty", "html": "\n        \u003cdiv style=\"font-size: 12px; color: black;\"\u003e\n            \u003ca href=\"https://maps.google.com/?q=Norris+Geyser+Basin\" target=\"_blank\" style=\"text-decoration: none; color: black;\"\u003e\n                4. Norris Geyser Basin\n            \u003c/a\u003e\n        \u003c/div\u003e\n    ", "iconAnchor": [0, 0], "iconSize": [200, 36]});
+            marker_8509bc6c095ec4332264fc1feaaf355b.setIcon(div_icon_c937d605ff361d7491a5ab60ba9671d3);
+        
+    
+            var marker_30047a003c6a117cbf3bda103db55fbd = L.marker(
+                [44.6625, -111.1048],
+                {}
+            ).addTo(map_040ed2202aca131de160ff422d272631);
+        
+    
+            var beautify_icon_d2d7db56678416016ab06d69606dbb2f = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#2A81CB", "borderColor": "#000", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 5, "textColor": "#fff"}
+            )
+            marker_30047a003c6a117cbf3bda103db55fbd.setIcon(beautify_icon_d2d7db56678416016ab06d69606dbb2f);
+        
+    
+            marker_30047a003c6a117cbf3bda103db55fbd.bindTooltip(
+                `<div>
+                     West Yellowstone
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6a3ec0ced5ebfe6759e9137ab11af1b = L.marker(
+                [44.6625, -111.1048],
+                {}
+            ).addTo(map_040ed2202aca131de160ff422d272631);
+        
+    
+            var div_icon_4a3f392dbc238fe8fc73948a647bdfa1 = L.divIcon({"className": "empty", "html": "\n        \u003cdiv style=\"font-size: 12px; color: black;\"\u003e\n            \u003ca href=\"https://maps.google.com/?q=West+Yellowstone\" target=\"_blank\" style=\"text-decoration: none; color: black;\"\u003e\n                5. West Yellowstone\n            \u003c/a\u003e\n        \u003c/div\u003e\n    ", "iconAnchor": [0, 0], "iconSize": [200, 36]});
+            marker_c6a3ec0ced5ebfe6759e9137ab11af1b.setIcon(div_icon_4a3f392dbc238fe8fc73948a647bdfa1);
+        
+    
+            var poly_line_b00995310ccc061c286e78d3f2d462e8 = L.polyline(
+                [[45.777235, -111.160286], [45.0311, -110.7059], [44.9769, -110.7013], [44.7313, -110.7042], [44.6625, -111.1048]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_040ed2202aca131de160ff422d272631);
+        
+</script>
+</html>
